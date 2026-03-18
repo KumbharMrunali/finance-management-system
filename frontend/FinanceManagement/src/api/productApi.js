@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/api/products";
+const BASE_URL = "https://finance-management-system-le1z.onrender.com/api/products";
 
 export const getAllProducts = () => axios.get(BASE_URL);
 

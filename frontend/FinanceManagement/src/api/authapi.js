@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/api/auth";
+const BASE_URL = "https://finance-management-system-le1z.onrender.com/api/auth";
 
 export const loginUser = async (credentials) => {
   try {
